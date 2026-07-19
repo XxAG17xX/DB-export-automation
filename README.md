@@ -31,8 +31,8 @@ print(pyodbc.drivers())
 ## 📥 Installation
 Clone the repo and install requirements:
 ```bash
-git clone https://github.com/YOUR-USERNAME/sqlserver-weekly-export.git
-cd sqlserver-weekly-export
+git clone https://github.com/XxAG17xX/DB-export-automation.git
+cd DB-export-automation
 pip install -r requirements.txt
 ```
 
