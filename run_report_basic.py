@@ -1,7 +1,7 @@
 import pyodbc, csv, datetime
 
 # connection info
-server = r"ABCDW\SQLEXPRESS"   # use exactly what SSMS shows as Server name
+server = r"YourServerName\SQLEXPRESS"   # use exactly what SSMS shows as Server name
 database = "DemoDB"
 
 conn_str = (
