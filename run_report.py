@@ -15,7 +15,6 @@ LATEST     = BASE / "latest.csv"
 LOG_FILE   = BASE / "logs.txt"
 
 def log(msg: str):
-    LOG_FILE.write_text("" if not LOG_FILE.exists() else LOG_FILE.read_text(encoding="utf-8"), encoding="utf-8")
     with LOG_FILE.open("a", encoding="utf-8") as f:
         f.write(f"[{datetime.datetime.now():%Y-%m-%d %H:%M:%S}] {msg}\n")
 
