@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## 🛠️ Configuration
 Open `run_report.py` and set:
 ```python
-server   = r"whatevr your smss shows"   # or "host,1433"
+server   = r"YourServerName\SQLEXPRESS"   # as shown in SSMS, or "host,1433"
 database = "YourDBname"
 driver   = "ODBC Driver 18 for SQL Server"  # or "ODBC Driver 17 for SQL Server"
 ```
