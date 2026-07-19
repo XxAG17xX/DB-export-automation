@@ -96,12 +96,13 @@ Expected output:
 
 ## 📂 Repo Contents
 ```
-├─ run_report.py   # initial version (minimal working script)
-├─ run_report_1.py         # improved version (logs, latest.csv, cleanup)
+├─ run_report.py         # main script (logs, latest.csv, 60-day cleanup)
+├─ run_report_basic.py   # minimal starter version
 ├─ query.sql             # your SQL query
 ├─ sample_output.csv     # example output (5 rows, 3 cols)
 ├─ requirements.txt      # Python dependencies
 ├─ .gitignore
+├─ LICENSE
 └─ README.md
 ```
 
